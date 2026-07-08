@@ -1,0 +1,659 @@
+{
+    "estudiantes": [
+        {
+            "identificacion": "12457854125",
+            "nombre": "Culiano el Mariano",
+            "carrera": [
+                "Emprendimiento"
+            ],
+            "semestre": "1",
+            "fecha_registro": "2026-07-02 15:48:54",
+            "calificaciones": [
+                {
+                    "materia": "Estructuras de Datos",
+                    "nota": 9.5
+                },
+                {
+                    "materia": "Álgebra Lineal",
+                    "nota": 8.0
+                },
+                {
+                    "materia": "Programación Orientada a Objetos",
+                    "nota": 10.0
+                },
+                {
+                    "materia": "Lo emprendedore",
+                    "nota": 1.5
+                }
+            ],
+            "entregas": {
+                "EMP-A-1-deb-1-1": {
+                    "estado": "Entregado",
+                    "archivo_nombre": "FB_IMG_1782996714003.jpg",
+                    "archivo_ruta": "tareas_entregadas/EMP-A/Semana_1/deb-1-1/Culiano_el_Mariano_FB_IMG_1782996714003.jpg",
+                    "fecha_entrega": "2026-07-02 16:17:24",
+                    "nota": 1.5
+                }
+            }
+        },
+        {
+            "identificacion": "7894561235",
+            "nombre": "Alejandrito el huesito",
+            "carrera": [
+                "Emprendimiento"
+            ],
+            "semestre": "1",
+            "fecha_registro": "2026-07-02 15:49:10",
+            "calificaciones": [
+                {
+                    "materia": "Estructuras de Datos",
+                    "nota": 9.5
+                },
+                {
+                    "materia": "Álgebra Lineal",
+                    "nota": 8.0
+                },
+                {
+                    "materia": "Programación Orientada a Objetos",
+                    "nota": 10.0
+                }
+            ],
+            "entregas": {}
+        },
+        {
+            "identificacion": "1245789634",
+            "nombre": "Sebastian Pollito",
+            "carrera": [
+                "Psicología"
+            ],
+            "semestre": "1",
+            "fecha_registro": "2026-07-02 19:30:29",
+            "calificaciones": [
+                {
+                    "materia": "Estructuras de Datos",
+                    "nota": 9.5
+                },
+                {
+                    "materia": "Álgebra Lineal",
+                    "nota": 8.0
+                },
+                {
+                    "materia": "Programación Orientada a Objetos",
+                    "nota": 10.0
+                }
+            ],
+            "entregas": {
+                "MIL-A-1-deb-1-1": {
+                    "estado": "Entregado",
+                    "archivo_nombre": "1783017986650.png",
+                    "archivo_ruta": "tareas_entregadas/MIL-A/Semana_1/deb-1-1/Sebastian_Pollito_1783017986650.png",
+                    "fecha_entrega": "2026-07-02 19:34:57",
+                    "nota": 3.0
+                }
+            }
+        },
+        {
+            "identificacion": "estudiante",
+            "nombre": "Estudiante Sapiens",
+            "carrera": [
+                "Ingeniería en Sistemas"
+            ],
+            "semestre": "1",
+            "fecha_registro": "2026-07-02 15:48:54",
+            "calificaciones": [
+                {
+                    "materia": "Estructuras de Datos",
+                    "nota": 0.0
+                },
+                {
+                    "materia": "Álgebra Lineal",
+                    "nota": 0.0
+                }
+            ],
+            "entregas": {}
+        }
+    ],
+    "docentes": [
+        {
+            "identificacion": "1245789635",
+            "nombre": "Mariano el Ano",
+            "carrera": [
+                "Emprendimiento"
+            ],
+            "especialidad": "emprendedor profesional",
+            "fecha_registro": "2026-07-02 15:48:09"
+        },
+        {
+            "identificacion": "1234564565",
+            "nombre": "Yadira Montanero",
+            "carrera": [
+                "Emprendimiento",
+                "Psicología"
+            ],
+            "especialidad": "Se le muere la familia",
+            "fecha_registro": "2026-07-02 19:29:27"
+        },
+        {
+            "identificacion": "docente",
+            "nombre": "Docente Sapiens",
+            "carrera": [
+                "Ingeniería en Sistemas"
+            ],
+            "especialidad": "General",
+            "fecha_registro": "2026-07-02 15:48:09"
+        }
+    ],
+    "materias": [
+        {
+            "codigo": "CAB-101-B",
+            "nombre": "Física 1",
+            "creditos": 6,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "B",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": []
+        },
+        {
+            "codigo": "DIE-101-A",
+            "nombre": "Dientes y caries 1",
+            "creditos": 6,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Odontología"
+            ]
+        },
+        {
+            "codigo": "DIE-A",
+            "nombre": "Dientes y caries 1",
+            "creditos": 6,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Odontología"
+            ]
+        },
+        {
+            "codigo": "EMP-123-B",
+            "nombre": "Lo emprendedore",
+            "creditos": 4,
+            "horario": "lin ini i",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "B",
+            "docente_email": "1245789635@gmail.com",
+            "docente_nombre": "Mariano el Ano",
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Emprendimiento"
+            ]
+        },
+        {
+            "codigo": "EMP-A",
+            "nombre": "Lo emprendedore",
+            "creditos": 4,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [
+                    {
+                        "id": "deb-1-1",
+                        "titulo": "Matar un hada de los dientes",
+                        "descripcion": "Tarea de prueba",
+                        "puntos": 10,
+                        "fecha_limite": "2026-07-17T16:13",
+                        "formato": "PDF"
+                    }
+                ],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": "1245789635@gmail.com",
+            "docente_nombre": "Mariano el Ano",
+            "imagen": null,
+            "estudiantes_inscritos": [
+                "12457854125",
+                "7894561235"
+            ],
+            "semestre": "1",
+            "carreras": [
+                "Emprendimiento"
+            ]
+        },
+        {
+            "codigo": "EMP-C",
+            "nombre": "Lo emprendedore",
+            "creditos": 4,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "C",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Emprendimiento"
+            ]
+        },
+        {
+            "codigo": "MAT-101-A",
+            "nombre": "Estructuras de Datos",
+            "creditos": 5,
+            "horario": "Lun-Mie 08:00 - 10:00",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": "docente@live.uleam.edu.ec",
+            "docente_nombre": "Docente Sapiens",
+            "imagen": null,
+            "estudiantes_inscritos": [
+                "estudiante"
+            ],
+            "semestre": "1",
+            "carreras": [
+                "Ingeniería en Sistemas"
+            ]
+        },
+        {
+            "codigo": "MAT-102-A",
+            "nombre": "Álgebra Lineal",
+            "creditos": 4,
+            "horario": "Mar-Jue 10:00 - 12:00",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": "docente@live.uleam.edu.ec",
+            "docente_nombre": "Docente Sapiens",
+            "imagen": null,
+            "estudiantes_inscritos": [
+                "estudiante"
+            ],
+            "semestre": "1",
+            "carreras": [
+                "Ingeniería en Sistemas"
+            ]
+        },
+        {
+            "codigo": "MIL-101-B",
+            "nombre": "Milchulogía",
+            "creditos": 10,
+            "horario": "cuando me den jovenes en accion",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "B",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Psicología"
+            ]
+        },
+        {
+            "codigo": "MIL-A",
+            "nombre": "Milchulogía",
+            "creditos": 10,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [
+                    {
+                        "id": "deb-1-1",
+                        "titulo": "MATAR DE DAISY A ÑEMASO",
+                        "descripcion": "Matar a deisy y a bochi a punta de huevo",
+                        "puntos": 10,
+                        "fecha_limite": "2026-07-02T19:33",
+                        "formato": "PDF"
+                    }
+                ],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": "1234564565@gmail.com",
+            "docente_nombre": "Yadira Montanero",
+            "imagen": null,
+            "estudiantes_inscritos": [
+                "1245789634"
+            ],
+            "semestre": "1",
+            "carreras": [
+                "Psicología"
+            ]
+        },
+        {
+            "codigo": "RED-102-A",
+            "nombre": "Redes de Computadoras",
+            "creditos": 6,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": []
+        }
+    ],
+    "tareas": [],
+    "incidencias_resueltas": [
+        {
+            "id_tarea": 1,
+            "descripcion": "Revisame la calificacion porfavor QUE PERDIO ECUADOR NO TENGO GANAS DE VIVIR",
+            "estado": "Atendida",
+            "fecha_creacion": "2026-07-02 16:16:07",
+            "email_estudiante": "12457854125@gmail.com",
+            "respuesta_docente": "Ok ya te revise pije ahora ya tienes su desgracia de calificacion",
+            "nombre_docente": "Mariano el Ano"
+        }
+    ],
+    "historial": [
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:26:24",
+            "timestamp": 1783470384218,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:26:20",
+            "timestamp": 1783470380051,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "18:32:04",
+            "timestamp": 1783467124202,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "18:32:04",
+            "timestamp": 1783467124199,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "18:31:38",
+            "timestamp": 1783467098860,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Login exitoso como docente: docente@live.uleam.edu.ec",
+            "hora": "18:31:05",
+            "timestamp": 1783467065934,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: docente@live.uleam.edu.ec",
+            "hora": "18:31:05",
+            "timestamp": 1783467065933,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como docente: docente@live.uleam.edu.ec",
+            "hora": "18:30:42",
+            "timestamp": 1783467042755,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: docente@live.uleam.edu.ec",
+            "hora": "18:30:42",
+            "timestamp": 1783467042754,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "18:30:15",
+            "timestamp": 1783467015301,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "18:29:14",
+            "timestamp": 1783466954553,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Login exitoso como docente: 1245789635@gmail.com",
+            "hora": "18:27:03",
+            "timestamp": 1783466823686,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: 1245789635@gmail.com",
+            "hora": "18:27:03",
+            "timestamp": 1783466823685,
+            "destinatarios": [
+                "admin_log"
+            ]
+        }
+    ],
+    "carreras": [
+        {
+            "nombre": "Odontología",
+            "semestres": 10,
+            "descripcion": "Estudio del sistema estomatognático."
+        },
+        {
+            "nombre": "Emprendimiento",
+            "semestres": 8,
+            "descripcion": "lo emprendedore lo chonero"
+        },
+        {
+            "nombre": "Psicología",
+            "semestres": 8,
+            "descripcion": "BOCHI ES MECO"
+        }
+    ]
+}
