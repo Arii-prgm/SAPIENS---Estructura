@@ -545,6 +545,98 @@
     ],
     "historial": [
         {
+            "descripcion": "Login exitoso como coordinador: coordinador@live.uleam.edu.ec",
+            "hora": "18:52:55",
+            "timestamp": 1783554775963,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: coordinador@live.uleam.edu.ec",
+            "hora": "18:52:55",
+            "timestamp": 1783554775960,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como coordinador: coordinador@live.uleam.edu.ec",
+            "hora": "18:52:50",
+            "timestamp": 1783554770678,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: coordinador@live.uleam.edu.ec",
+            "hora": "18:52:50",
+            "timestamp": 1783554770675,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "18:51:02",
+            "timestamp": 1783554662423,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "18:51:02",
+            "timestamp": 1783554662421,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login fallido para: administrador@live.uleam.edu.ec",
+            "hora": "18:50:54",
+            "timestamp": 1783554654478,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "18:50:54",
+            "timestamp": 1783554654475,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "18:50:44",
+            "timestamp": 1783554644214,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "18:50:15",
+            "timestamp": 1783554615251,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "18:50:15",
+            "timestamp": 1783554615247,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "18:47:54",
+            "timestamp": 1783554474551,
+            "destinatarios": []
+        },
+        {
             "descripcion": "Sistema Sapiens iniciado",
             "hora": "18:45:45",
             "timestamp": 1783554345810,
