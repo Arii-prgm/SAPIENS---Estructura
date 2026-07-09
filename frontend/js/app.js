@@ -591,6 +591,15 @@ navButtons.forEach(btn => {
     });
 });
 
+// Botón Volver en Detalle de Materia
+document.getElementById('btn-volver-materias')?.addEventListener('click', () => {
+    if (userRole === 'admin' || userRole === 'coordinador') {
+        navigateTo('cursos');
+    } else {
+        navigateTo('mi-portal');
+    }
+});
+
 // Tema Oscuro/Claro
 const themeToggleBtn = document.getElementById('theme-toggle');
 themeToggleBtn.addEventListener('click', () => {
