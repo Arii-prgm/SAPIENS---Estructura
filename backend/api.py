@@ -2,7 +2,7 @@ import json
 import os
 import datetime
 import webview
-from backend.modelos import Estudiante, Materia, Tarea, Accion, Docente
+from backend.modelos import Estudiante, Materia, Tarea, Accion, Docente, Admin, Coordinador
 from backend.pila import PilaHistorial
 from backend.cola import ColaTareas
 from backend.lista_enlazada import ListaEnlazadaEstudiantes
@@ -31,14 +31,20 @@ class Api:
 
     def _inicializar_usuarios(self):
         if not os.path.exists(self.ruta_usuarios):
+            # Usando las clases de modelos para generar los usuarios lógicos
+            admin_main = Admin("administrador@live.uleam.edu.ec", "admin123", nombre="Administrador Sapiens")
+            coord_main = Coordinador("coordinador@live.uleam.edu.ec", "coordinador123", nombre="Coordinador Sapiens")
+            admin_sec = Admin("admin@gmail.com", "123456", nombre="Administrador Sapiens")
+            
+            # Construcción usando to_auth_dict() de los modelos para Admin y Coordinador
             default_users = {
-                "administrador@live.uleam.edu.ec": {"password": "admin123", "role": "admin", "nombre": "Administrador Sapiens"},
-                "coordinador@live.uleam.edu.ec": {"password": "coordinador123", "role": "coordinador", "nombre": "Coordinador Sapiens"},
+                admin_main.email: admin_main.to_auth_dict(),
+                coord_main.email: coord_main.to_auth_dict(),
+                admin_sec.email: admin_sec.to_auth_dict(),
                 "docente@live.uleam.edu.ec": {"password": "docente123", "role": "docente", "nombre": "Docente Sapiens"},
                 "estudiante@live.uleam.edu.ec": {"password": "estudiante123", "role": "estudiante", "nombre": "Estudiante Sapiens"},
                 "estudiante@gmail.com": {"password": "123456", "role": "estudiante", "nombre": "Joseph Coello"},
-                "docente@gmail.com": {"password": "123456", "role": "docente", "nombre": "Docente Sapiens"},
-                "admin@gmail.com": {"password": "123456", "role": "admin", "nombre": "Administrador Sapiens"}
+                "docente@gmail.com": {"password": "123456", "role": "docente", "nombre": "Docente Sapiens"}
             }
             try:
                 with open(self.ruta_usuarios, 'w', encoding='utf-8') as f:
@@ -247,13 +253,9 @@ class Api:
         nuevo_estudiante = Estudiante(identificacion, nombre, carreras_list, semestre=semestre, calificaciones=[])
         self.estudiantes.insertar_al_final(nuevo_estudiante)
         
-        email_estudiante = f"{identificacion}@gmail.com"
+        email_estudiante = nuevo_estudiante.email
         usuarios = self._cargar_usuarios()
-        usuarios[email_estudiante] = {
-            "password": "123456",
-            "role": "estudiante",
-            "nombre": nombre
-        }
+        usuarios[email_estudiante] = nuevo_estudiante.to_auth_dict()
         self._guardar_usuarios(usuarios)
         
         # Enrol in selected materias
@@ -285,13 +287,9 @@ class Api:
         nuevo_docente = Docente(identificacion, nombre, carreras_list, especialidad=especialidad)
         self.docentes.insertar_al_final(nuevo_docente)
         
-        email_docente = f"{identificacion}@gmail.com"
+        email_docente = nuevo_docente.email
         usuarios = self._cargar_usuarios()
-        usuarios[email_docente] = {
-            "password": "123456",
-            "role": "docente",
-            "nombre": nombre
-        }
+        usuarios[email_docente] = nuevo_docente.to_auth_dict()
         self._guardar_usuarios(usuarios)
         
         # Assign to selected materias
