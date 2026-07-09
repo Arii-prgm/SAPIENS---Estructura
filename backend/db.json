@@ -110,6 +110,37 @@
                     "nota": 0.0
                 }
             ],
+            "entregas": {
+                "EMP-A-1-deb-1-1": {
+                    "estado": "Entregado",
+                    "archivo_nombre": "GrupoE_ListaDoblementeEnlazada.docx",
+                    "archivo_ruta": "tareas_entregadas/EMP-A/Semana_1/deb-1-1/Estudiante_Sapiens_GrupoE_ListaDoblementeEnlazada.docx",
+                    "fecha_entrega": "2026-07-08 19:47:49"
+                }
+            }
+        },
+        {
+            "identificacion": "1234567891",
+            "nombre": "Ariela Sánchez",
+            "carrera": [
+                "Software"
+            ],
+            "semestre": "3",
+            "fecha_registro": "2026-07-08 19:35:54",
+            "calificaciones": [
+                {
+                    "materia": "Estructuras de Datos",
+                    "nota": 9.5
+                },
+                {
+                    "materia": "Álgebra Lineal",
+                    "nota": 8.0
+                },
+                {
+                    "materia": "Programación Orientada a Objetos",
+                    "nota": 10.0
+                }
+            ],
             "entregas": {}
         }
     ],
@@ -141,6 +172,24 @@
             ],
             "especialidad": "General",
             "fecha_registro": "2026-07-02 15:48:09"
+        },
+        {
+            "identificacion": "1351405798",
+            "nombre": "Juan Carlos Sendon",
+            "carrera": [
+                "Software"
+            ],
+            "especialidad": "Redes",
+            "fecha_registro": "2026-07-08 19:34:51"
+        },
+        {
+            "identificacion": "7894561237",
+            "nombre": "Jharol Zambrano",
+            "carrera": [
+                "Software"
+            ],
+            "especialidad": "POO",
+            "fecha_registro": "2026-07-08 19:40:16"
         }
     ],
     "materias": [
@@ -202,7 +251,9 @@
             "docente_email": null,
             "docente_nombre": null,
             "imagen": null,
-            "estudiantes_inscritos": [],
+            "estudiantes_inscritos": [
+                "1245789634"
+            ],
             "semestre": "1",
             "carreras": [
                 "Odontología"
@@ -358,7 +409,16 @@
             "creditos": 5,
             "horario": "Lun-Mie 08:00 - 10:00",
             "deberes": {
-                "1": [],
+                "1": [
+                    {
+                        "id": "deb-1-1",
+                        "titulo": "Pilas",
+                        "descripcion": "Informe",
+                        "puntos": 10,
+                        "fecha_limite": "2026-07-08T19:46",
+                        "formato": ".py"
+                    }
+                ],
                 "2": [],
                 "3": [],
                 "4": [],
@@ -500,9 +560,104 @@
             ]
         },
         {
+            "codigo": "POO-102-B",
+            "nombre": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+            "creditos": 3,
+            "horario": "Lun-Mie 8:00-10:00",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "B",
+            "docente_email": "7894561237@gmail.com",
+            "docente_nombre": "Jharol Zambrano",
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "3",
+            "carreras": []
+        },
+        {
+            "codigo": "RED-101-A",
+            "nombre": "Redes",
+            "creditos": 3,
+            "horario": "9:00-11:00",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Software"
+            ]
+        },
+        {
             "codigo": "RED-102-A",
             "nombre": "Redes de Computadoras",
             "creditos": 6,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "A",
+            "docente_email": "1351405798@gmail.com",
+            "docente_nombre": "Juan Carlos Sendon",
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": []
+        },
+        {
+            "codigo": "RED-A",
+            "nombre": "Redes",
+            "creditos": 3,
             "horario": "Por definir",
             "deberes": {
                 "1": [],
@@ -528,10 +683,88 @@
             "imagen": null,
             "estudiantes_inscritos": [],
             "semestre": "1",
-            "carreras": []
+            "carreras": [
+                "Software"
+            ]
+        },
+        {
+            "codigo": "RED-B",
+            "nombre": "Redes",
+            "creditos": 3,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "B",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Software"
+            ]
+        },
+        {
+            "codigo": "RED-C",
+            "nombre": "Redes",
+            "creditos": 3,
+            "horario": "Por definir",
+            "deberes": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": [],
+                "6": [],
+                "7": [],
+                "8": [],
+                "9": [],
+                "10": [],
+                "11": [],
+                "12": [],
+                "13": [],
+                "14": [],
+                "15": [],
+                "16": []
+            },
+            "paralelo": "C",
+            "docente_email": null,
+            "docente_nombre": null,
+            "imagen": null,
+            "estudiantes_inscritos": [],
+            "semestre": "1",
+            "carreras": [
+                "Software"
+            ]
         }
     ],
-    "tareas": [],
+    "tareas": [
+        {
+            "id_tarea": 1,
+            "descripcion": "Revisión de informe",
+            "estado": "Pendiente",
+            "fecha_creacion": "2026-07-08 19:48:23",
+            "email_estudiante": "estudiante@live.uleam.edu.ec",
+            "respuesta_docente": "",
+            "nombre_docente": ""
+        }
+    ],
     "incidencias_resueltas": [
         {
             "id_tarea": 1,
@@ -544,6 +777,185 @@
         }
     ],
     "historial": [
+        {
+            "descripcion": "Login exitoso como coordinador: coordinador@live.uleam.edu.ec",
+            "hora": "19:48:31",
+            "timestamp": 1783558111498,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: coordinador@live.uleam.edu.ec",
+            "hora": "19:48:31",
+            "timestamp": 1783558111492,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Incidencia #1 reportada por estudiante@live.uleam.edu.ec",
+            "hora": "19:48:23",
+            "timestamp": 1783558103896,
+            "destinatarios": [
+                "estudiante@live.uleam.edu.ec",
+                "admin",
+                "docente"
+            ]
+        },
+        {
+            "descripcion": "Estudiante Estudiante Sapiens entregó tarea en EMP-A: GrupoE_ListaDoblementeEnlazada.docx",
+            "hora": "19:47:49",
+            "timestamp": 1783558069338,
+            "destinatarios": [
+                "estudiante@live.uleam.edu.ec",
+                "admin",
+                "1245789635@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como estudiante: estudiante@live.uleam.edu.ec",
+            "hora": "19:47:00",
+            "timestamp": 1783558020959,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: estudiante@live.uleam.edu.ec",
+            "hora": "19:47:00",
+            "timestamp": 1783558020956,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Nueva tarea en MAT-101-A - Semana 1: Pilas",
+            "hora": "19:46:23",
+            "timestamp": 1783557983592,
+            "destinatarios": [
+                "estudiante@gmail.com",
+                "admin",
+                "docente@live.uleam.edu.ec"
+            ]
+        },
+        {
+            "descripcion": "Inscripción de 1 estudiantes en DIE-101-A",
+            "hora": "19:41:29",
+            "timestamp": 1783557689429,
+            "destinatarios": [
+                "admin",
+                "1245789634@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Materia registrada por administrador: PROGRAMACIÓN ORIENTADA A OBJETOS (POO-102-B)",
+            "hora": "19:40:48",
+            "timestamp": 1783557648887,
+            "destinatarios": [
+                "admin"
+            ]
+        },
+        {
+            "descripcion": "Docente registrado: Jharol Zambrano (7894561237@gmail.com)",
+            "hora": "19:40:16",
+            "timestamp": 1783557616716,
+            "destinatarios": [
+                "admin",
+                "7894561237@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Docente Juan Carlos Sendon asignado a materia Redes de Computadoras (RED-102-A)",
+            "hora": "19:36:28",
+            "timestamp": 1783557388480,
+            "destinatarios": [
+                "admin",
+                "1351405798@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Estudiante registrado: Ariela Sánchez (1234567891@gmail.com)",
+            "hora": "19:35:54",
+            "timestamp": 1783557354396,
+            "destinatarios": [
+                "admin",
+                "1234567891@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Docente registrado: Juan Carlos Sendon (1351405798@gmail.com)",
+            "hora": "19:34:51",
+            "timestamp": 1783557291223,
+            "destinatarios": [
+                "admin",
+                "1351405798@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Materia registrada por administrador: Redes (RED-C)",
+            "hora": "19:34:29",
+            "timestamp": 1783557269189,
+            "destinatarios": [
+                "admin"
+            ]
+        },
+        {
+            "descripcion": "Materia registrada por administrador: Redes (RED-A)",
+            "hora": "19:34:24",
+            "timestamp": 1783557264147,
+            "destinatarios": [
+                "admin"
+            ]
+        },
+        {
+            "descripcion": "Materia registrada por administrador: Redes (RED-B)",
+            "hora": "19:33:59",
+            "timestamp": 1783557239876,
+            "destinatarios": [
+                "admin"
+            ]
+        },
+        {
+            "descripcion": "Materia registrada por administrador: Redes (RED-101-A)",
+            "hora": "19:33:54",
+            "timestamp": 1783557234466,
+            "destinatarios": [
+                "admin"
+            ]
+        },
+        {
+            "descripcion": "Carrera registrada: Software",
+            "hora": "19:32:52",
+            "timestamp": 1783557172974,
+            "destinatarios": [
+                "admin",
+                "docente",
+                "estudiante"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "19:31:51",
+            "timestamp": 1783557111714,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "19:31:51",
+            "timestamp": 1783557111704,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:30:25",
+            "timestamp": 1783557025221,
+            "destinatarios": []
+        },
         {
             "descripcion": "Sistema Sapiens iniciado",
             "hora": "19:25:28",
@@ -776,6 +1188,11 @@
             "nombre": "Psicología",
             "semestres": 8,
             "descripcion": "BOCHI ES MECO"
+        },
+        {
+            "nombre": "Software",
+            "semestres": 8,
+            "descripcion": "Ingeniería en software"
         }
     ]
 }

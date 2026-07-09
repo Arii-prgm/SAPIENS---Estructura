@@ -18,5 +18,20 @@
         "password": "estudiante123",
         "role": "estudiante",
         "nombre": "José Afredo"
+    },
+    "1351405798@gmail.com": {
+        "password": "123456",
+        "role": "docente",
+        "nombre": "Juan Carlos Sendon"
+    },
+    "1234567891@gmail.com": {
+        "password": "123456",
+        "role": "estudiante",
+        "nombre": "Ariela Sánchez"
+    },
+    "7894561237@gmail.com": {
+        "password": "123456",
+        "role": "docente",
+        "nombre": "Jharol Zambrano"
     }
 }
