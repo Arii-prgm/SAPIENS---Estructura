@@ -778,6 +778,12 @@
     ],
     "historial": [
         {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:59:22",
+            "timestamp": 1783558762102,
+            "destinatarios": []
+        },
+        {
             "descripcion": "Login exitoso como coordinador: coordinador@live.uleam.edu.ec",
             "hora": "19:48:31",
             "timestamp": 1783558111498,
@@ -954,6 +960,12 @@
             "descripcion": "Sistema Sapiens iniciado",
             "hora": "19:30:25",
             "timestamp": 1783557025221,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:27:54",
+            "timestamp": 1783556874696,
             "destinatarios": []
         },
         {
