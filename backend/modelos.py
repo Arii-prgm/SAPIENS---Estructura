@@ -1,9 +1,27 @@
 import datetime
 
-class Estudiante:
-    def __init__(self, identificacion, nombre, carrera, semestre="1", fecha_registro=None, calificaciones=None, entregas=None):
-        self.identificacion = identificacion
+class UsuarioApp:
+    """Clase base para los usuarios de autenticación del sistema"""
+    def __init__(self, email, password, role, nombre):
+        self.email = email
+        self.password = password
+        self.role = role
         self.nombre = nombre
+
+    def to_auth_dict(self):
+        return {
+            "password": self.password,
+            "role": self.role,
+            "nombre": self.nombre
+        }
+
+class Estudiante(UsuarioApp):
+    def __init__(self, identificacion, nombre, carrera, semestre="1", fecha_registro=None, calificaciones=None, entregas=None, password="123456"):
+        # Llamar al constructor de la clase base UsuarioApp
+        email = f"{identificacion}@gmail.com"
+        super().__init__(email, password, role="estudiante", nombre=nombre)
+        
+        self.identificacion = identificacion
         if isinstance(carrera, list):
             self.carreras = carrera
         else:
@@ -100,10 +118,12 @@ class Accion:
         }
 
 
-class Docente:
-    def __init__(self, identificacion, nombre, carrera, especialidad="General", fecha_registro=None):
+class Docente(UsuarioApp):
+    def __init__(self, identificacion, nombre, carrera, especialidad="General", fecha_registro=None, password="123456"):
+        email = f"{identificacion}@gmail.com"
+        super().__init__(email, password, role="docente", nombre=nombre)
+        
         self.identificacion = identificacion
-        self.nombre = nombre
         if isinstance(carrera, list):
             self.carreras = carrera
         else:
@@ -120,3 +140,24 @@ class Docente:
             "especialidad": self.especialidad,
             "fecha_registro": self.fecha_registro
         }
+
+
+class Admin(UsuarioApp):
+    def __init__(self, email, password, nombre="Administrador Sapiens", nivel_acceso="Total"):
+        super().__init__(email, password, role="admin", nombre=nombre)
+        self.nivel_acceso = nivel_acceso
+
+    def to_auth_dict(self):
+        data = super().to_auth_dict()
+        data["nivel_acceso"] = self.nivel_acceso
+        return data
+
+class Coordinador(UsuarioApp):
+    def __init__(self, email, password, nombre="Coordinador Sapiens", facultad="General"):
+        super().__init__(email, password, role="coordinador", nombre=nombre)
+        self.facultad = facultad
+
+    def to_auth_dict(self):
+        data = super().to_auth_dict()
+        data["facultad"] = self.facultad
+        return data
