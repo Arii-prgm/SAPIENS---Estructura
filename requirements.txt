@@ -1,0 +1,10 @@
+pywebview
+python-docx
+xlsxwriter
+pillow
+docx2pdf
+python-pptx
+colorama
+tqdm
+pywin32; sys_platform == 'win32'
+lxml

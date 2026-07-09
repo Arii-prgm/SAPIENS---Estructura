@@ -30,7 +30,9 @@ def iniciar_app():
     )
 
     api_sapiens.set_window(ventana)
-    ventana.events.shown += lambda: centrar_ventana(ventana)
+    # pywebview centra la ventana automáticamente al inicio por defecto.
+    # Se deshabilita el centrado manual para evitar conflictos con la escala de pantalla (DPI) en Windows 11.
+    # ventana.events.shown += lambda: centrar_ventana(ventana)
 
     print("Iniciando Sapiens...")
     webview.start(debug=False)

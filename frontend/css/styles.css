@@ -73,14 +73,13 @@
 }
 
 body {
-    zoom: 0.9;
-    min-height: 111.11vh;
+    min-height: 100vh;
     background-color: var(--bg-color);
     background-image: var(--bg-gradient);
     background-size: cover;
     background-attachment: fixed;
     color: var(--text-main);
-    overflow-x: hidden;
+    overflow: hidden; /* Evita scrollbars del body */
 }
 
 /* BOTÓN TOGGLE TEMA */
@@ -108,7 +107,7 @@ body {
 
 /* CONTENEDOR DE VISTAS */
 .view-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     animation: fadeIn 0.5s ease-out;

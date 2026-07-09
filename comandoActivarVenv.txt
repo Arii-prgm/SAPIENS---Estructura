@@ -1,1 +1,6 @@
-.\.venv\bin\activate 
+# En CMD (Símbolo del sistema):
+.\.venv\Scripts\activate
+
+# En PowerShell (Ejecutar primero la política de ejecución si da error de script bloqueado):
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\.venv\Scripts\Activate.ps1
