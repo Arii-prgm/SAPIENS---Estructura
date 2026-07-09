@@ -1,15 +1,18 @@
 class NodoLista:
+    # Nodo para una estructura de datos tipo Lista Enlazada
     def __init__(self, dato):
         self.dato = dato
         self.siguiente = None
 
 class ListaEnlazadaEstudiantes:
+    # Estructura de datos tipo Lista Simplemente Enlazada (Singly Linked List) con puntero a cabeza y cola
     def __init__(self):
         self.cabeza = None
         self.cola = None  # Puntero extra para lograr O(1) al insertar al final
         self.tamaño = 0
 
     def insertar_al_final(self, dato):
+        # Inserta un nuevo nodo al final de la lista enlazada
         nuevo_nodo = NodoLista(dato)
         if self.cabeza is None:
             self.cabeza = nuevo_nodo
@@ -20,6 +23,7 @@ class ListaEnlazadaEstudiantes:
         self.tamaño += 1
 
     def buscar_por_identificacion(self, identificacion):
+        # Busca y retorna el dato de un estudiante por su número de identificación
         actual = self.cabeza
         while actual is not None:
             if hasattr(actual.dato, 'identificacion') and actual.dato.identificacion == identificacion:
@@ -28,6 +32,7 @@ class ListaEnlazadaEstudiantes:
         return None
 
     def eliminar_por_identificacion(self, identificacion):
+        # Elimina de la lista el estudiante que coincida con la identificación dada
         actual = self.cabeza
         anterior = None
 
@@ -50,6 +55,7 @@ class ListaEnlazadaEstudiantes:
         return False # No se encontró
 
     def obtener_todos(self):
+        # Retorna una lista con todos los elementos de la lista enlazada
         elementos = []
         actual = self.cabeza
         while actual is not None:
