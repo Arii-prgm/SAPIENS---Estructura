@@ -779,6 +779,24 @@
     "historial": [
         {
             "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:08:28",
+            "timestamp": 1783559308163,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:07:38",
+            "timestamp": 1783559258584,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:07:14",
+            "timestamp": 1783559234831,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
             "hora": "19:59:22",
             "timestamp": 1783558762102,
             "destinatarios": []

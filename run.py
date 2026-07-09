@@ -26,8 +26,21 @@ def get_venv_paths():
     return venv_dir, python_exe, pip_exe
 
 def ensure_venv(venv_dir, python_exe):
-    if not os.path.exists(python_exe):
-        log("No se encontró el entorno virtual (.venv). Creando uno nuevo...")
+    is_broken = False
+    if os.path.exists(python_exe):
+        try:
+            # Verificar si el venv es funcional (no copiado de otro equipo/usuario)
+            subprocess.run([python_exe, "-c", "import sys"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except Exception:
+            log("El entorno virtual (.venv) está roto o tiene rutas de otro usuario. Recreando...")
+            is_broken = True
+            try:
+                shutil.rmtree(venv_dir)
+            except Exception as e:
+                error_exit(f"No se pudo limpiar el entorno virtual corrupto: {e}. Por favor, elimina la carpeta '.venv' manualmente y vuelve a iniciar.")
+                
+    if not os.path.exists(python_exe) or is_broken:
+        log("No se encontró o está roto el entorno virtual (.venv). Creando uno nuevo...")
         try:
             # Create venv
             subprocess.run([sys.executable, "-m", "venv", venv_dir], check=True)
@@ -35,7 +48,7 @@ def ensure_venv(venv_dir, python_exe):
         except subprocess.CalledProcessError as e:
             error_exit(f"Error al crear el entorno virtual: {e}")
     else:
-        log("Entorno virtual (.venv) detectado.")
+        log("Entorno virtual (.venv) detectado y verificado.")
 
 def configure_system_site_packages(venv_dir):
     # Enable include-system-site-packages = true in pyvenv.cfg

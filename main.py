@@ -1,5 +1,6 @@
 import webview
 import os
+from pathlib import Path
 
 from backend.api import Api 
 
@@ -18,10 +19,11 @@ def iniciar_app():
 
     api_sapiens = Api()
     ruta_html = os.path.join(os.path.dirname(__file__), 'frontend', 'index.html')
+    url_html = Path(ruta_html).as_uri()
 
     ventana = webview.create_window(
         title='Sapiens - Sistema de Organización Académica', 
-        url=ruta_html, 
+        url=url_html, 
         js_api=api_sapiens,  
         width=1200,          
         height=800,         
