@@ -1,4 +1,4 @@
-#!C:\Users\Joseph CM\Desktop\SAPIES-FINAL\SAPIENS---Estructura\.venv\Scripts\python.exe
+#!C:\Users\Usuario\OneDrive\Documentos\uni\3cer semestre\Estructura\Proyecto Estructura\.venv\Scripts\python.exe
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 """

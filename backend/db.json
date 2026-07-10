@@ -417,6 +417,14 @@
                         "puntos": 10,
                         "fecha_limite": "2026-07-08T19:46",
                         "formato": ".py"
+                    },
+                    {
+                        "id": "deb-1-2",
+                        "titulo": "Proyecto",
+                        "descripcion": "Realizar",
+                        "puntos": 10,
+                        "fecha_limite": "2026-07-09T20:40",
+                        "formato": "pdf"
                     }
                 ],
                 "2": [],
@@ -777,6 +785,88 @@
         }
     ],
     "historial": [
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "20:41:09",
+            "timestamp": 1783647669408,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "20:41:09",
+            "timestamp": 1783647669403,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como estudiante: estudiante@live.uleam.edu.ec",
+            "hora": "20:40:42",
+            "timestamp": 1783647642077,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: estudiante@live.uleam.edu.ec",
+            "hora": "20:40:42",
+            "timestamp": 1783647642072,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Nueva tarea en MAT-101-A - Semana 1: Proyecto",
+            "hora": "20:40:22",
+            "timestamp": 1783647622980,
+            "destinatarios": [
+                "estudiante@gmail.com",
+                "admin",
+                "docente@live.uleam.edu.ec"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como docente: docente@live.uleam.edu.ec",
+            "hora": "20:39:44",
+            "timestamp": 1783647584148,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: docente@live.uleam.edu.ec",
+            "hora": "20:39:44",
+            "timestamp": 1783647584135,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:39:15",
+            "timestamp": 1783647555861,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:03:51",
+            "timestamp": 1783645431595,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:04:30",
+            "timestamp": 1783559070624,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "20:03:48",
+            "timestamp": 1783559028623,
+            "destinatarios": []
+        },
         {
             "descripcion": "Sistema Sapiens iniciado",
             "hora": "19:59:22",

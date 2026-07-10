@@ -17,16 +17,23 @@ def centrar_ventana(window):
 def iniciar_app():
 
     api_sapiens = Api()
-    ruta_html = os.path.join(os.path.dirname(__file__), 'frontend', 'index.html')
+    from pathlib import Path
+
+    ruta_html = Path(__file__).resolve().parent / "frontend" / "index.html"
+
+    if not ruta_html.exists():
+          raise FileNotFoundError(f"No se encontró el archivo HTML en: {ruta_html}")
+
+    ruta_html = ruta_html.as_uri()
 
     ventana = webview.create_window(
-        title='Sapiens - Sistema de Organización Académica', 
-        url=ruta_html, 
-        js_api=api_sapiens,  
-        width=1200,          
-        height=800,         
-        min_size=(800, 600), 
-        background_color='#f3f4f6' 
+     title='Sapiens - Sistema de Organización Académica',
+      url=ruta_html,
+      js_api=api_sapiens,
+      width=1200,
+     height=800,
+      min_size=(800, 600),
+     background_color='#f3f4f6'
     )
 
     api_sapiens.set_window(ventana)
