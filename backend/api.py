@@ -32,19 +32,19 @@ class Api:
     def _inicializar_usuarios(self):
         if not os.path.exists(self.ruta_usuarios):
             # Usando las clases de modelos para generar los usuarios lógicos
-            admin_main = Admin("administrador@live.uleam.edu.ec", "admin123", nombre="Administrador Sapiens")
-            coord_main = Coordinador("coordinador@live.uleam.edu.ec", "coordinador123", nombre="Coordinador Sapiens")
-            admin_sec = Admin("admin@gmail.com", "123456", nombre="Administrador Sapiens")
+            admin_main = Admin("administrador@live.uleam.edu.ec", "admin123", nombre="Eladio Fernández")
+            coord_main = Coordinador("coordinador@live.uleam.edu.ec", "coordinador123", nombre="Andrés Torres")
+            admin_sec = Admin("admin@gmail.com", "123456", nombre="Eladio Fernández")
             
             # Construcción usando to_auth_dict() de los modelos para Admin y Coordinador
             default_users = {
                 admin_main.email: admin_main.to_auth_dict(),
                 coord_main.email: coord_main.to_auth_dict(),
                 admin_sec.email: admin_sec.to_auth_dict(),
-                "docente@live.uleam.edu.ec": {"password": "docente123", "role": "docente", "nombre": "Docente Sapiens"},
-                "estudiante@live.uleam.edu.ec": {"password": "estudiante123", "role": "estudiante", "nombre": "Estudiante Sapiens"},
+                "docente@live.uleam.edu.ec": {"password": "docente123", "role": "docente", "nombre": "Daniela Rojas"},
+                "estudiante@live.uleam.edu.ec": {"password": "estudiante123", "role": "estudiante", "nombre": "Carlos Mendoza"},
                 "estudiante@gmail.com": {"password": "123456", "role": "estudiante", "nombre": "Joseph Coello"},
-                "docente@gmail.com": {"password": "123456", "role": "docente", "nombre": "Docente Sapiens"}
+                "docente@gmail.com": {"password": "123456", "role": "docente", "nombre": "Daniela Rojas"}
             }
             try:
                 with open(self.ruta_usuarios, 'w', encoding='utf-8') as f:

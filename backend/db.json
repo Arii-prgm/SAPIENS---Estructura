@@ -1,44 +1,8 @@
 {
     "estudiantes": [
         {
-            "identificacion": "12457854125",
-            "nombre": "Culiano el Mariano",
-            "carrera": [
-                "Emprendimiento"
-            ],
-            "semestre": "1",
-            "fecha_registro": "2026-07-02 15:48:54",
-            "calificaciones": [
-                {
-                    "materia": "Estructuras de Datos",
-                    "nota": 9.5
-                },
-                {
-                    "materia": "Álgebra Lineal",
-                    "nota": 8.0
-                },
-                {
-                    "materia": "Programación Orientada a Objetos",
-                    "nota": 10.0
-                },
-                {
-                    "materia": "Lo emprendedore",
-                    "nota": 1.5
-                }
-            ],
-            "entregas": {
-                "EMP-A-1-deb-1-1": {
-                    "estado": "Entregado",
-                    "archivo_nombre": "FB_IMG_1782996714003.jpg",
-                    "archivo_ruta": "tareas_entregadas/EMP-A/Semana_1/deb-1-1/Culiano_el_Mariano_FB_IMG_1782996714003.jpg",
-                    "fecha_entrega": "2026-07-02 16:17:24",
-                    "nota": 1.5
-                }
-            }
-        },
-        {
             "identificacion": "7894561235",
-            "nombre": "Alejandrito el huesito",
+            "nombre": "Alejandro Ruiz",
             "carrera": [
                 "Emprendimiento"
             ],
@@ -62,7 +26,7 @@
         },
         {
             "identificacion": "1245789634",
-            "nombre": "Sebastian Pollito",
+            "nombre": "Sebastián Castro",
             "carrera": [
                 "Psicología"
             ],
@@ -86,7 +50,7 @@
                 "MIL-A-1-deb-1-1": {
                     "estado": "Entregado",
                     "archivo_nombre": "1783017986650.png",
-                    "archivo_ruta": "tareas_entregadas/MIL-A/Semana_1/deb-1-1/Sebastian_Pollito_1783017986650.png",
+                    "archivo_ruta": "tareas_entregadas/MIL-A/Semana_1/deb-1-1/Sebastián_Castro_1783017986650.png",
                     "fecha_entrega": "2026-07-02 19:34:57",
                     "nota": 3.0
                 }
@@ -94,7 +58,7 @@
         },
         {
             "identificacion": "estudiante",
-            "nombre": "Estudiante Sapiens",
+            "nombre": "Carlos Mendoza",
             "carrera": [
                 "Ingeniería en Sistemas"
             ],
@@ -114,7 +78,7 @@
                 "EMP-A-1-deb-1-1": {
                     "estado": "Entregado",
                     "archivo_nombre": "GrupoE_ListaDoblementeEnlazada.docx",
-                    "archivo_ruta": "tareas_entregadas/EMP-A/Semana_1/deb-1-1/Estudiante_Sapiens_GrupoE_ListaDoblementeEnlazada.docx",
+                    "archivo_ruta": "tareas_entregadas/EMP-A/Semana_1/deb-1-1/Carlos_Mendoza_GrupoE_ListaDoblementeEnlazada.docx",
                     "fecha_entrega": "2026-07-08 19:47:49"
                 }
             }
@@ -146,27 +110,18 @@
     ],
     "docentes": [
         {
-            "identificacion": "1245789635",
-            "nombre": "Mariano el Ano",
-            "carrera": [
-                "Emprendimiento"
-            ],
-            "especialidad": "emprendedor profesional",
-            "fecha_registro": "2026-07-02 15:48:09"
-        },
-        {
             "identificacion": "1234564565",
             "nombre": "Yadira Montanero",
             "carrera": [
                 "Emprendimiento",
                 "Psicología"
             ],
-            "especialidad": "Se le muere la familia",
+            "especialidad": "Psicología Clínica",
             "fecha_registro": "2026-07-02 19:29:27"
         },
         {
             "identificacion": "docente",
-            "nombre": "Docente Sapiens",
+            "nombre": "Daniela Rojas",
             "carrera": [
                 "Ingeniería en Sistemas"
             ],
@@ -175,7 +130,7 @@
         },
         {
             "identificacion": "1351405798",
-            "nombre": "Juan Carlos Sendon",
+            "nombre": "Juan Carlos Sendón",
             "carrera": [
                 "Software"
             ],
@@ -316,8 +271,8 @@
                 "16": []
             },
             "paralelo": "B",
-            "docente_email": "1245789635@gmail.com",
-            "docente_nombre": "Mariano el Ano",
+            "docente_email": null,
+            "docente_nombre": null,
             "imagen": null,
             "estudiantes_inscritos": [],
             "semestre": "1",
@@ -358,11 +313,10 @@
                 "16": []
             },
             "paralelo": "A",
-            "docente_email": "1245789635@gmail.com",
-            "docente_nombre": "Mariano el Ano",
+            "docente_email": null,
+            "docente_nombre": null,
             "imagen": null,
             "estudiantes_inscritos": [
-                "12457854125",
                 "7894561235"
             ],
             "semestre": "1",
@@ -437,7 +391,7 @@
             },
             "paralelo": "A",
             "docente_email": "docente@live.uleam.edu.ec",
-            "docente_nombre": "Docente Sapiens",
+            "docente_nombre": "Daniela Rojas",
             "imagen": null,
             "estudiantes_inscritos": [
                 "estudiante"
@@ -472,7 +426,7 @@
             },
             "paralelo": "A",
             "docente_email": "docente@live.uleam.edu.ec",
-            "docente_nombre": "Docente Sapiens",
+            "docente_nombre": "Daniela Rojas",
             "imagen": null,
             "estudiantes_inscritos": [
                 "estudiante"
@@ -648,7 +602,7 @@
             },
             "paralelo": "A",
             "docente_email": "1351405798@gmail.com",
-            "docente_nombre": "Juan Carlos Sendon",
+            "docente_nombre": "Juan Carlos Sendón",
             "imagen": null,
             "estudiantes_inscritos": [],
             "semestre": "1",
@@ -765,17 +719,7 @@
             "nombre_docente": ""
         }
     ],
-    "incidencias_resueltas": [
-        {
-            "id_tarea": 1,
-            "descripcion": "Revisame la calificacion porfavor QUE PERDIO ECUADOR NO TENGO GANAS DE VIVIR",
-            "estado": "Atendida",
-            "fecha_creacion": "2026-07-02 16:16:07",
-            "email_estudiante": "12457854125@gmail.com",
-            "respuesta_docente": "Ok ya te revise pije ahora ya tienes su desgracia de calificacion",
-            "nombre_docente": "Mariano el Ano"
-        }
-    ],
+    "incidencias_resueltas": [],
     "historial": [
         {
             "descripcion": "Sistema Sapiens iniciado",
@@ -828,13 +772,12 @@
             ]
         },
         {
-            "descripcion": "Estudiante Estudiante Sapiens entregó tarea en EMP-A: GrupoE_ListaDoblementeEnlazada.docx",
+            "descripcion": "Estudiante Carlos Mendoza entregó tarea en EMP-A: GrupoE_ListaDoblementeEnlazada.docx",
             "hora": "19:47:49",
             "timestamp": 1783558069338,
             "destinatarios": [
                 "estudiante@live.uleam.edu.ec",
-                "admin",
-                "1245789635@gmail.com"
+                "admin"
             ]
         },
         {
@@ -890,7 +833,7 @@
             ]
         },
         {
-            "descripcion": "Docente Juan Carlos Sendon asignado a materia Redes de Computadoras (RED-102-A)",
+            "descripcion": "Docente Juan Carlos Sendón asignado a materia Redes de Computadoras (RED-102-A)",
             "hora": "19:36:28",
             "timestamp": 1783557388480,
             "destinatarios": [
@@ -908,7 +851,7 @@
             ]
         },
         {
-            "descripcion": "Docente registrado: Juan Carlos Sendon (1351405798@gmail.com)",
+            "descripcion": "Docente registrado: Juan Carlos Sendón (1351405798@gmail.com)",
             "hora": "19:34:51",
             "timestamp": 1783557291223,
             "destinatarios": [
@@ -1185,22 +1128,6 @@
             "hora": "18:29:14",
             "timestamp": 1783466954553,
             "destinatarios": []
-        },
-        {
-            "descripcion": "Login exitoso como docente: 1245789635@gmail.com",
-            "hora": "18:27:03",
-            "timestamp": 1783466823686,
-            "destinatarios": [
-                "admin_log"
-            ]
-        },
-        {
-            "descripcion": "Intento de login: 1245789635@gmail.com",
-            "hora": "18:27:03",
-            "timestamp": 1783466823685,
-            "destinatarios": [
-                "admin_log"
-            ]
         }
     ],
     "carreras": [
