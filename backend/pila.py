@@ -1,15 +1,17 @@
 class NodoPila:
+    # Nodo para una estructura de datos tipo Pila (LIFO)
     def __init__(self, dato):
         self.dato = dato
         self.siguiente = None
 
 class PilaHistorial:
+    # Estructura de datos tipo Pila (LIFO - Last In, First Out)
     def __init__(self):
         self.tope = None
         self.tamaño = 0
 
     def push(self, dato):
-        """Inserta un elemento en el tope de la pila. O(1)"""
+        # Inserta un elemento en el tope de la pila
         nuevo_nodo = NodoPila(dato)
         if self.tope is None:
             self.tope = nuevo_nodo
@@ -19,7 +21,7 @@ class PilaHistorial:
         self.tamaño += 1
 
     def pop(self):
-        """Retira y retorna el elemento en el tope de la pila. O(1)"""
+        # Retira y retorna el elemento en el tope de la pila
         if self.esta_vacia():
             return None
         nodo_removido = self.tope
@@ -28,19 +30,17 @@ class PilaHistorial:
         return nodo_removido.dato
 
     def peek(self):
-        """Retorna el elemento en el tope sin retirarlo. O(1)"""
+        # Retorna el elemento en el tope sin retirarlo
         if self.esta_vacia():
             return None
         return self.tope.dato
 
     def esta_vacia(self):
+        # Verifica si la pila está vacía
         return self.tope is None
 
     def obtener_elementos(self):
-        """
-        Recorre la pila sin modificarla para enviarla al Frontend.
-        Complejidad: O(n) donde n es el tamaño de la pila.
-        """
+        # Recorre la pila sin modificarla y retorna sus elementos como lista
         elementos = []
         actual = self.tope
         while actual is not None:

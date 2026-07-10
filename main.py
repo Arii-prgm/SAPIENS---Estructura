@@ -1,5 +1,6 @@
 import webview
 import os
+from pathlib import Path
 
 from backend.api import Api 
 
@@ -17,6 +18,7 @@ def centrar_ventana(window):
 def iniciar_app():
 
     api_sapiens = Api()
+<<<<<<< HEAD
     from pathlib import Path
 
     ruta_html = Path(__file__).resolve().parent / "frontend" / "index.html"
@@ -34,6 +36,19 @@ def iniciar_app():
      height=800,
       min_size=(800, 600),
      background_color='#f3f4f6'
+=======
+    ruta_html = os.path.join(os.path.dirname(__file__), 'frontend', 'index.html')
+    url_html = Path(ruta_html).as_uri()
+
+    ventana = webview.create_window(
+        title='Sapiens - Sistema de Organización Académica', 
+        url=url_html, 
+        js_api=api_sapiens,  
+        width=1200,          
+        height=800,         
+        min_size=(800, 600), 
+        background_color='#f3f4f6' 
+>>>>>>> 55d7274da6fd3330ad3b24a3da237830ce197577
     )
 
     api_sapiens.set_window(ventana)

@@ -2,27 +2,27 @@
     "administrador@live.uleam.edu.ec": {
         "password": "admin123",
         "role": "admin",
-        "nombre": "Administrador Eladio"
+        "nombre": "Eladio Fernández"
     },
     "coordinador@live.uleam.edu.ec": {
         "password": "coordinador123",
         "role": "coordinador",
-        "nombre": "Elon Musk"
+        "nombre": "Andrés Torres"
     },
     "docente@live.uleam.edu.ec": {
         "password": "docente123",
         "role": "docente",
-        "nombre": "Alexander MUñoz"
+        "nombre": "Alexander Muñoz"
     },
     "estudiante@live.uleam.edu.ec": {
         "password": "estudiante123",
         "role": "estudiante",
-        "nombre": "José Afredo"
+        "nombre": "José Alfredo"
     },
     "1351405798@gmail.com": {
         "password": "123456",
         "role": "docente",
-        "nombre": "Juan Carlos Sendon"
+        "nombre": "Juan Carlos Sendón"
     },
     "1234567891@gmail.com": {
         "password": "123456",
