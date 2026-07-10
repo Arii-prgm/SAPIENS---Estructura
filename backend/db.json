@@ -190,6 +190,15 @@
             ],
             "especialidad": "POO",
             "fecha_registro": "2026-07-08 19:40:16"
+        },
+        {
+            "identificacion": "1234567890",
+            "nombre": "B",
+            "carrera": [
+                "Software"
+            ],
+            "especialidad": "ED",
+            "fecha_registro": "2026-07-09 19:28:48"
         }
     ],
     "materias": [
@@ -777,6 +786,155 @@
         }
     ],
     "historial": [
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "22:27:14",
+            "timestamp": 1783654034990,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "22:27:14",
+            "timestamp": 1783654034976,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como estudiante: estudiante@live.uleam.edu.ec",
+            "hora": "22:26:44",
+            "timestamp": 1783654004253,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: estudiante@live.uleam.edu.ec",
+            "hora": "22:26:44",
+            "timestamp": 1783654004240,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como docente: docente@live.uleam.edu.ec",
+            "hora": "22:26:32",
+            "timestamp": 1783653992474,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: docente@live.uleam.edu.ec",
+            "hora": "22:26:32",
+            "timestamp": 1783653992458,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "22:26:20",
+            "timestamp": 1783653980241,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "22:26:20",
+            "timestamp": 1783653980201,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "22:26:03",
+            "timestamp": 1783653963699,
+            "destinatarios": []
+        },
+        {
+            "descripcion": "Docente registrado: B (1234567890@gmail.com)",
+            "hora": "19:28:48",
+            "timestamp": 1783643328330,
+            "destinatarios": [
+                "admin",
+                "1234567890@gmail.com"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "19:28:12",
+            "timestamp": 1783643292414,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "19:28:12",
+            "timestamp": 1783643292387,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como docente: docente@live.uleam.edu.ec",
+            "hora": "19:01:33",
+            "timestamp": 1783641693788,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: docente@live.uleam.edu.ec",
+            "hora": "19:01:33",
+            "timestamp": 1783641693781,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como estudiante: estudiante@live.uleam.edu.ec",
+            "hora": "19:01:30",
+            "timestamp": 1783641690235,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: estudiante@live.uleam.edu.ec",
+            "hora": "19:01:30",
+            "timestamp": 1783641690230,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Login exitoso como admin: administrador@live.uleam.edu.ec",
+            "hora": "19:01:18",
+            "timestamp": 1783641678507,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Intento de login: administrador@live.uleam.edu.ec",
+            "hora": "19:01:18",
+            "timestamp": 1783641678406,
+            "destinatarios": [
+                "admin_log"
+            ]
+        },
+        {
+            "descripcion": "Sistema Sapiens iniciado",
+            "hora": "19:00:24",
+            "timestamp": 1783641624881,
+            "destinatarios": []
+        },
         {
             "descripcion": "Sistema Sapiens iniciado",
             "hora": "20:08:28",

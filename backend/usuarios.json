@@ -4,11 +4,6 @@
         "role": "admin",
         "nombre": "Administrador Eladio"
     },
-    "coordinador@live.uleam.edu.ec": {
-        "password": "coordinador123",
-        "role": "coordinador",
-        "nombre": "Elon Musk"
-    },
     "docente@live.uleam.edu.ec": {
         "password": "docente123",
         "role": "docente",
@@ -33,5 +28,10 @@
         "password": "123456",
         "role": "docente",
         "nombre": "Jharol Zambrano"
+    },
+    "1234567890@gmail.com": {
+        "password": "123456",
+        "role": "docente",
+        "nombre": "B"
     }
 }
